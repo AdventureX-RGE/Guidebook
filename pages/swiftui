@@ -1,0 +1,23 @@
+# SwiftUI iOS 应用教程
+
+## 概览
+
+在本教程中，我们通过创建一个简单的 iOS App 来教导基本的 SwiftUI 开发技能。SwiftUI 是一个允许你通过 Swift 在 Apple 的所有平台上进行跨平台构建用户界面的内置库。它采用了声明式写法，这意味着您可以以声明的方式描述您的用户界面，而 SwiftUI 会处理其他一切操作。这将有别于传统的命令式写法，使代码更易于阅读，并且它对设计师更友好，因为它借鉴了许多设计中的概念，如 Figma 中的 Auto-Layout。
+
+- 命令式写法（UIKit）
+    
+    ```swift
+    let roundedRectangle = UIView()
+    roundedRectangle.backgroundColor = .blue
+    roundedRectangle.layer.cornerRadius = 20
+    ```
+    
+- 声明式写法（SwiftUI）
+    
+    ```swift
+    RoundedRectangle(cornerRadius: 20)
+    	.foregroundStyle(.white)
+    ```
+    
+
+此外，SwiftUI 还是一个跨平台框架，意味着你可以使用同一套代码去构建 iOS、macOS、watchOS 和 tvOS 上的用户界面（假定你的用户界面设计本身即支持多平台）。那么话不多说，让我们正式进入 SwiftUI 的世界吧！
