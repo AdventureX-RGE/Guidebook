@@ -1,0 +1,23 @@
+{
+  "index": {
+    "title": "AdventureX",
+    "type": "page",
+    "display": "hidden"
+  },
+  "tech": {
+    "title": "开发",
+    "type": "page"
+  },
+  "design": {
+    "title": "设计",
+    "type": "page"
+  },
+  "market": {
+    "title": "营销",
+    "type": "page"
+  },
+  "product": {
+    "title": "产品与商业",
+    "type": "page"
+  }
+}
